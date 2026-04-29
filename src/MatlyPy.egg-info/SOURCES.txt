@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/MatlyPy.egg-info/PKG-INFO
+src/MatlyPy.egg-info/SOURCES.txt
+src/MatlyPy.egg-info/dependency_links.txt
+src/MatlyPy.egg-info/requires.txt
+src/MatlyPy.egg-info/top_level.txt
+src/matlypy/__init__.py
+src/matlypy/mathematics.py
+src/matlypy/model.py
+src/matlypy/plotting.py
