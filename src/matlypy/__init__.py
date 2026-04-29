@@ -4,6 +4,6 @@ it is recommended to read the README.md for full documentation, the following te
 Matpy is a combination of Matplotlib.pyplot and Numpy with included ML presets. You can also do matrix & tensor
 calculations. Although the lib is very fast its still a good lib.
 """
-from .plotting import matplot
-from .mathematics import matmath
-from .model import matmodel
+from .plotting import plot
+from .mathematics import math
+from .model import model
