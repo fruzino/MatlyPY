@@ -294,7 +294,7 @@ weights, vocab = model.load("my_model.gguf")
 ### Tensor Math
 
 ```python
-from pyplot import math
+from matlypy import math
 
 # Matrix multiply
 A = [[1, 2, 3], [4, 5, 6]]
@@ -317,7 +317,7 @@ print(math.softmax([1.0, 2.0, 3.0]))
 ### Visualization
 
 ```python
-from pyplot import plot
+from matlypy import plot
 import numpy as np
 
 # Simulate training loss
@@ -328,7 +328,7 @@ plot.autoplot(loss, title="Training Loss", ylabel="Loss", xlabel="Epoch", grid=T
 ### N-Gram Language Model
 
 ```python
-from pyplot import model
+from matlypy import model
 
 corpus = """
 the quick brown fox jumps over the lazy dog
@@ -351,7 +351,7 @@ print("Vocab size:", len(vocab))
 
 ```python
 import numpy as np
-from pyplot import model
+from matlypy import model
 
 # Create dummy weights
 vocab = ["hello", "world", "foo", "bar"]
@@ -386,4 +386,4 @@ pip install numpy plotlib
 
 ---
 
-> pyplot is open and minimal by design. It's meant to be readable, hackable, and a solid foundation for learning ML from scratch.
+>matlypy is not yet recommended for commercial use it is stil experimental!

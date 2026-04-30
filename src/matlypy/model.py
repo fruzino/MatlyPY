@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import logging
-from .mathematics import matmath
+from .mathematics import math as matmath
 import struct
 
 logging.basicConfig(level=logging.INFO)
