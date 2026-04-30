@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "MatlyPy"
-version = "0.1.3"
+version = "0.1.4"
 authors = [{ name="Akshay SIngh", email="limesuggestbox360@gmail.com" }]
 description = "A small library that mixes the use of numpy & matplotlib. It also makes creating AI models easier."
 readme = "README.md"
