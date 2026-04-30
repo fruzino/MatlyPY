@@ -4,14 +4,17 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "MatlyPy"
-version = "0.1.7"
-authors = [{ name="Akshay SIngh", email="limesuggestbox360@gmail.com" }]
-description = "A small library that mixes the use of numpy & matplotlib. It also makes creating AI models easier."
+version = "0.2.0"
+authors = [{ name="Akshay Singh", email="limesuggestbox360@gmail.com" }]
+description = "A small library for making AI models, doing Data analytics, performing calculations & etc! Considor this as a Utility library for Data handling"
 readme = "README.md"
 requires-python = ">=3.8"
 dependencies = [
     "numpy",
-    "matplotlib"
+    "matplotlib",
+    "requests",
+    "bs4",
+    "cv2"
 ]
 
 [tool.setuptools.packages.find]
