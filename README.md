@@ -30,7 +30,7 @@ pip install matlypy
 Or install from source:
 
 ```bash
-git clone https://github.com/your-repo/pyplot.git
+git clone https://github.com/fruzino/MatlyPY.git
 cd matlypy
 pip install .
 ```
