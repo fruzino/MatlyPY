@@ -44,3 +44,19 @@ class plot:
             plt.close()
         except Exception as e:
             logger.error(f"Error in plot_auto: {e}")
+    @staticmethod
+    def imgplot(data, height, width, title="Untitled", xlabel="X", ylabel="Y", grid=False):
+        try:
+            plt.figure(figsize=(width, height))
+            plt.subplot(121)
+            plt.imshow(data)
+            plt.title(title)
+            plt.xlabel(xlabel)
+            plt.ylabel(ylabel)
+            plt.grid(grid)
+            plt.show()
+            plt.close()
+        except ValueError as e:
+            logger.error(f"Value Error in subplot_image: {e}")
+        except Exception as e:
+            logger.error(f"Unexpected Error in subplot_image: {e}")
