@@ -85,3 +85,4 @@ class tools:
             error_msg = f"An unexpected error occurred during image generation: {str(e)}"
             print(error_msg)
             return error_msg
+    

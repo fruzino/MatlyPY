@@ -4,17 +4,18 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "MatlyPy"
-version = "0.2.1"
+version = "0.3.0"
 authors = [{ name="Akshay Singh", email="limesuggestbox360@gmail.com" }]
 description = "A small library for making AI models, doing Data analytics, performing calculations & etc! Considor this as a Utility library for Data handling"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = [
     "numpy",
     "matplotlib",
     "requests",
     "bs4",
-    "opencv-python"
+    "opencv-python",
+    "librosa"
 ]
 
 [tool.setuptools.packages.find]

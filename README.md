@@ -463,6 +463,12 @@ print(math.relu([-2, -1, 0, 1, 2]))
 print(math.softmax([1.0, 2.0, 3.0]))
 ```
 
+There is also cmath! You can access it by doing:
+```python
+from matlypy import cmath
+cmath.<method>
+```
+
 ### Visualization
 
 ```python
@@ -509,9 +515,9 @@ print("Vocab size:", len(vocab))
 ### Web Scraping for Training Data
 
 ```python
-from matlypy import model
+from matlypy import model, tools
 
-text = model.tools.fetch("https://en.wikipedia.org/wiki/Natural_language_processing")
+text = tools.fetch("https://en.wikipedia.org/wiki/Natural_language_processing")
 output, brain, vocab = model.model(data=text, instruct="language", token=20, n=3)
 print(output)
 ```
