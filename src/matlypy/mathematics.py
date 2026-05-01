@@ -68,4 +68,3 @@ class math:
             logger.error(f"Error in softmax: {e}")
             return None
 
-
